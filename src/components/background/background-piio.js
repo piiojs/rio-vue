@@ -1,7 +1,8 @@
 export default {
   name: 'PiioBackground',
   props: {
-    path: String
+    path: String,
+    tag: String
   },
   data() {
     return {};

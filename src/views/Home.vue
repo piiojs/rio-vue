@@ -1,9 +1,8 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+    <Piio path="../../assets/logo.png" alt="Vue logo"/>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <Piio data-piio="/assets/logo.png"/>
-    <PiioBackground />
+    <PiioBackground path="../../assets/logo.png" tag="a"/>
   </div>
 </template>
 
