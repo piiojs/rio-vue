@@ -70,7 +70,7 @@ With this step you can **optimize delivery time** of Piio’s script, **deliver 
 Add the PiioElement with the `tag` attribute set as `img` and your image as `path`
 
 ```html
-    <PiioElement path="https://www.publitas.com/blog/holiday-inspiration-great-examples-of-guides-and-christmas-catalogs/header.jpg" tag="img" class="example-class">
+    <PiioElement path="https://piio.co/img/whypiio-hero@3x.png" tag="img" class="example-class">
     </PiioElement>
 ```
 
@@ -80,7 +80,7 @@ Add the Piio element with the `tag` attribute set as the element you want to hav
 
 Here is an example using an anchor tag:
 ```html
-  <PiioElement path="https://www.publitas.com/blog/holiday-inspiration-great-examples-of-guides-and-christmas-catalogs/header.jpg" tag="a" href="https://www.piio.co">
+  <PiioElement path="https://piio.co/img/whypiio-hero@3x.png" tag="a" href="https://www.piio.co">
       <h1>Example content</h1>
     </PiioElement>
 ```
