@@ -1,86 +1,49 @@
-# Piio component for Vue.js
+# piio-vue
 
-Fully optimized images for each visitor, device and browser.
-
-- Piio isn’t an image compressor. We deliver pixel-perfect images for each visitor based on their browser and device, in real time.
-- Piio is plug and play.
-- You get faster page load times without the hassle of running batch processing scripts.
-
-More info at https://piio.co/
-Register at https://app.piio.co/register
-
-## Getting started
-
-#### NPM Installation
+## Project setup
 ```
-npm install piio-image-vue
+npm install
 ```
-#### Manual Installation
 
-- Download the directory Piio-image cotaining `piioElement.js` and `piioElement.vue`
-- Load `piioElement.js` in your code
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-### Import component
+### Compiles and minifies for production
+```
+npm run build
+```
 
-Add the following line to import the component:
-```html
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+Para la instalacion es necesario hacer npm install piio
+
+El componente abarca el uso de imagenes por tag img y el uso de imagenes como background
+
+Lo primero es importar el componente
 import PiioElement from '@/components/piio/piioElement.vue'
-```
 
-Add the component to the view:
-```javascript
+En la vista definir el componente
 export default {
   name: 'Home',
   components: {
     PiioElement
   }
 }
-```
 
-### Set up Piio on your code
-
-You need to insert Piio's script at the end of your html and before all the other JS files:
-```html
-<script src="//pcdn.piiojs.com/[domain key]/image.min.js"></script>
-```
-Replace `domain key` with the Piio Domain Key you get from your dashboard at https://app.piio.co/
-
-#### Preload and Preconnect
-
-In order to improve connection times you can include inside your HTML Head section a link to preconnect to `pcdn.piiojs.com` and preload of Piio’s JS script.
-
-With this step you can **optimize delivery time** of Piio’s script, **deliver content faster** and give a **better user experience**.
-
-```html
-<link rel="preconnect"
-  href="//pcdn.piiojs.com">
-
-<link rel="preload"
-  as="script"
-  href="//pcdn.piiojs.com/[domain key]/image.min.js">
-  ```
-
-### Usage
-
-
-#### Image tag
-
-Add the PiioElement with the `tag` attribute set as `img` and your image as `path`
-
-```html
-    <PiioElement path="https://piio.co/img/whypiio-hero@3x.png" tag="img" class="example-class">
+Luego usar los componentes, en caso de ser img la tag seria como por ejemplo
+    <PiioElement path="https://www.publitas.com/blog/holiday-inspiration-great-examples-of-guides-and-christmas-catalogs/header.jpg" tag="img">
     </PiioElement>
-```
 
-#### Background image
-
-Add the Piio element with the `tag` attribute set as the element you want to have the background applied. You can add any other attributes and content to the element as it will be added.
-
-Here is an example using an anchor tag:
-```html
-  <PiioElement path="https://piio.co/img/whypiio-hero@3x.png" tag="a" href="https://www.piio.co">
-      <h1>Example content</h1>
+Tambien se puede utilizar como background seleccionando la tag y entre tags el contenido que se desea poner
+  <PiioElement path="https://www.publitas.com/blog/holiday-inspiration-great-examples-of-guides-and-christmas-catalogs/header.jpg" tag="a" href="www.google.com">
+      <h1>Example</h1>
     </PiioElement>
-```
----
-For more settings check our Docs at https://docs.piio.co/
