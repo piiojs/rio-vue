@@ -2,20 +2,12 @@ export default {
   name: 'piioElement',
   props: {
     path: String,
-    tag: String,
-    isImage: false
+    tag: String
   },
-  methods: {
-    controlingTag() {
+  computed: {
+    isImage: function () {
       let tag = this.tag.toLowerCase();
-      if (tag === 'img') {
-        this.isImage = true;
-      } else {
-        this.isImage = false;
-      }
+      return tag === 'img';
     }
-  },
-  mounted() {
-  this.controlingTag();
   }
 };
