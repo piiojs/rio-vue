@@ -11,7 +11,7 @@ Piio Images will also improve your load time and reduce unnecessary network usag
 - WebP and other new-generation formats and compatible with legacy browsers
 - Lazy loading integrated
 
-Read more about <a href="https://piio.co/" target="_blank">https://piio.co/>Piio</a> and register at <a href="https://app.piio.co/register" target="_blank">https://app.piio.co/register</a>
+Read more about <a href="https://piio.co/" target="_blank">Piio</a> and register at <a href="https://app.piio.co/register" target="_blank">https://app.piio.co/register</a>
 
 ## Getting started
 
@@ -21,7 +21,7 @@ npm install piio-images-vue
 ```
 #### Manual Installation
 
-- Download the directory Piio-images cotaining `piioElement.js` and `piioElement.vue`
+- Download the directory Piio-images containing `piioElement.js` and `piioElement.vue`
 - Load `piioElement.js` in your code
 
 ### Import component
