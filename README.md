@@ -1,17 +1,17 @@
 # Piio Images for Vuejs
 
-Piio Images will allow you easily optimize all your images based on your visitor's browser and screen-size. With thoughtful compression and new-generation formats, your images will have crisp quality and consume less data, including Lazy Loading, out of the box.
+Piio Images will allow you to easily optimize all your images based on your visitor's browser and screen-size. With thoughtful compression and new-generation formats, your images will have crisp quality and consume less data, including Lazy Loading, out of the box.
 
 Piio Images will also improve your load time and reduce unnecessary network usage.
 
--Effortless integration
--Pixel-perfect responsive images
--Thoughtful image compression
--High DPI Support and Scalability
--WebP and other new-generation formats and compatible with legacy browsers
--Lazy loading integrated
+- Effortless integration
+- Pixel-perfect responsive images
+- Thoughtful image compression
+- High DPI Support and Scalability
+- WebP and other new-generation formats and compatible with legacy browsers
+- Lazy loading integrated
 
-Read more about at <a href="https://piio.co/" target="_blank">https://piio.co/</a> and register at <a href="https://app.piio.co/register" target="_blank">https://app.piio.co/register</a>
+Read more about <a href="https://piio.co/" target="_blank">https://piio.co/>Piio</a> and register at <a href="https://app.piio.co/register" target="_blank">https://app.piio.co/register</a>
 
 ## Getting started
 
