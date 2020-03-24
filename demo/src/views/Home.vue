@@ -9,7 +9,8 @@
     </PiioElement>
     <hr>
     <h2>Background example</h2>
-    <PiioElement path="https://secureservercdn.net/198.71.233.106/w4y.80f.myftpupload.com/wp-content/uploads/2020/02/backpack-desktop.jpg" tag="div">
+    <PiioElement path="https://secureservercdn.net/198.71.233.106/w4y.80f.myftpupload.com/wp-content/uploads/2020/02/backpack-desktop.jpg" tag="div"
+    style="min-height:400px; color: #ffc107;background-size:cover;background-position:center;background-repeat:no-repeat">
       <h1>Your website faster,your images sharper.</h1>
     </PiioElement>
 

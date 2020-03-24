@@ -98,7 +98,7 @@ Here is an example using an anchor tag:
 
 #### Picture
 
-Add a PiioElement for each `source` you need inside the `picture` tag. Set tag as `source` and add any other aattributes you need, e.g `media` attribute.
+Add a PiioElement for each `source` you need inside the `picture` tag. Set tag as `source` and add any other attributes you need, e.g `media` attribute.
 
 This example follows the <a href="https://blog.piio.co/responsive/art-direction-showing-different-images-per-device/" target="_blank">Art Direction: Showing different images per device</a> idea.
 

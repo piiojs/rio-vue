@@ -5,8 +5,9 @@ export default {
     tag: String
   },
   computed: {
-    computedTag: function () {
-      return this.tag.toLowerCase();
+    cTag: function () {
+      let cTag = this.tag.toLowerCase();
+      return cTag;
     }
   }
 };

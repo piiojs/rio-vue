@@ -5,9 +5,9 @@ export default {
     tag: String
   },
   computed: {
-    isImage: function () {
-      let tag = this.tag.toLowerCase();
-      return tag === 'img';
+    cTag: function () {
+      let cTag = this.tag.toLowerCase();
+      return cTag;
     }
   }
 };
