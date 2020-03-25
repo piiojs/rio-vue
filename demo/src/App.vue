@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Piio domain-key="demo"/>
     <router-view/>
   </div>
 </template>

@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <h1>Piio images for Vue.js</h1>
-
     <h2>Image tag example</h2>
     <PiioElement path="https://secureservercdn.net/198.71.233.106/w4y.80f.myftpupload.com/wp-content/uploads/2020/02/backpack-desktop.jpg" tag="img">
     </PiioElement>
@@ -28,12 +27,9 @@
 </template>
 <script>
 // @ is an alias to /src
-import PiioElement from '@/components/piio/piioElement.vue'
+
 
 export default {
-  name: 'Home',
-  components: {
-    PiioElement
-  }
+  name: 'Home'
 }
 </script>

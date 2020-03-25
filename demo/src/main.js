@@ -4,6 +4,8 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+Vue.component('Piio',  require('./components/piio/piio.vue').default);
+
 new Vue({
   router,
   render: h => h(App)

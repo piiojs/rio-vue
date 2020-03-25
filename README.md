@@ -21,57 +21,36 @@ npm install piio-images-vue
 ```
 #### Manual Installation
 
-- Download the directory Piio-images containing `piioElement.js` and `piioElement.vue`
-- Load `piioElement.js` in your code
+If you aren't using npm installation, you can install Piio manually by following these steps:
+
+- Download the directory Piio-images containing `piio.js`, `piio.vue`, `piioElement.js` and `piioElement.vue`
+- Load `piio.js` in your code
 
 ### Import component
 
-Add the following line to import the component:
-```html
-import PiioElement from '@/components/piio/piioElement.vue'
-```
+Add the following line to import the component in your `main.js`:
 
-Add the component to the view:
 ```javascript
-export default {
-  name: 'Home',
-  components: {
-    PiioElement
-  }
-}
+Vue.component('Piio',  require('./components/piio/piio.vue').default);
 ```
 
-### Set up Piio on your code
+Initialize the component by adding it to the `App.vue`:
+```html
+  <Piio domain-key="DOMAIN-KEY"/>
+```
 
-You need to insert Piio's script at the end of your html and before all the other JS files:
+Getting as result:
 
 ```html
-<script>
-(function(i,m,a,g,e) {
-    e = i.getElementsByTagName(m)[0], (g = i.createElement(m)).src = "//pcdn.piiojs.com/"+a+"/image.min.js",
-    g.onerror = function() {
-        (g = i.createElement(m)).src = "https://fs.piio.co/image-failover.min.js",
-        e.parentNode.insertBefore(g, e);
-    }, e.parentNode.insertBefore(g, e);
-}(document, "script", "DOMAIN-KEY"));
-</script>
+<template>
+  <div id="app">
+    <Piio domain-key="DOMAIN-KEY"/>
+    <router-view/>
+  </div>
+</template>
 ```
+
 Replace `DOMAIN-KEY` with the Piio Domain Key you get from your dashboard at <a href="https://app.piio.co/" target="_blank">https://app.piio.co/</a>
-
-#### Preload and Preconnect
-
-In order to improve connection times you can include inside your HTML Head section a link to preconnect to `pcdn.piiojs.com` and preload of Piio’s JS script.
-
-With this step you can **optimize delivery time** of Piio’s script, **deliver content faster** and give a **better user experience**.
-
-```html
-<link rel="preconnect"
-  href="//pcdn.piiojs.com">
-
-<link rel="preload"
-  as="script"
-  href="//pcdn.piiojs.com/[domain key]/image.min.js">
-  ```
 
 ### Usage
 
