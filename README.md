@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Piio Image Component
-Component for VUE
-=======
 # Piio Images for Vuejs
 
 Piio Images will allow you to easily optimize all your images based on your visitor's browser and screen-size. With thoughtful compression and new-generation formats, your images will have crisp quality and consume less data, including Lazy Loading, out of the box.
@@ -97,4 +93,3 @@ This example follows the <a href="https://blog.piio.co/responsive/art-direction-
 ```
 ---
 For more settings check our Docs at <a href="https://docs.piio.co/" target="_blank">https://docs.piio.co/</a>
->>>>>>> release/release-1.0
