@@ -1,5 +1,5 @@
 export default {
-  name: 'piioElement',
+  name: 'PiioElement',
   props: {
     path: String,
     tag: String

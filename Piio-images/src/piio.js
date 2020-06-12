@@ -1,10 +1,5 @@
-import Vue from 'vue';
-import PiioElement from './piioElement.vue';
-
-Vue.component("PiioElement", PiioElement)
-
 export default {
-  name: 'piio',
+  name: 'HeaderPiio',
   components: {
 
   },
@@ -20,7 +15,7 @@ export default {
     var preload = document.createElement('link');
     preload.rel = 'preload';
     preload.as = 'script';
-    preload.href = '//pcdn.piiojs.com/demo/image.min.js';
+    preload.href = '//pcdn.piiojs.com/'+this.domainKey+'/image.min.js';
     document.head.appendChild(preload);
 
     var piioScript = document.createElement('script');
