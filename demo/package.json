@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "piio-images-vue": "^1.0.5",
     "vue": "^2.6.11",
+    "vue-code-highlight": "^0.7.4",
     "vue-router": "^3.1.5"
   },
   "devDependencies": {

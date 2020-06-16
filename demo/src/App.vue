@@ -1,13 +1,14 @@
 <template>
   <div id="app">
-    <Piio domain-key="demo"/>
+    <Piio domain-key="piio"/>
     <router-view/>
   </div>
 </template>
-
+<style media="screen" src="vue-code-highlight/themes/prism.css"></style>
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Barlow',Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -29,8 +30,13 @@
 img {
   max-width:100%
 }
+div{height:auto;overflow:hidden}
+.mb-20{
+  margin-bottom:20px;
+}
 .home {
   width: 90%;
   margin: 0 auto;
 }
+.half-screen{width:46%;float:left;padding:2%;}
 </style>
