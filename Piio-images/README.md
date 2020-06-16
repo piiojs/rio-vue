@@ -19,6 +19,12 @@ Read more about <a href="https://piio.co/" target="_blank">Piio</a> and register
 ```
 npm install piio-images-vue
 ```
+#### Manual Installation
+
+If you aren't using npm installation, you can install Piio manually by following these steps:
+
+- Download the directory Piio-images containing `piio.js`, `piio.vue`, `piioElement.js` and `piioElement.vue`
+- Load `piio.js` in your code
 
 ### Import component
 
