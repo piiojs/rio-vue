@@ -91,5 +91,8 @@ This example follows the <a href="https://blog.piio.co/responsive/art-direction-
   </PiioElement>
 </picture>
 ```
+
+Read more about <a href="https://blog.piio.co/responsive/art-direction-showing-different-images-per-device/" target="_blank">Art Direction here</a>.
+
 ---
 For more settings check our Docs at <a href="https://docs.piio.co/" target="_blank">https://docs.piio.co/</a>
