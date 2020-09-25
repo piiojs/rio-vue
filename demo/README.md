@@ -21,3 +21,12 @@ Once you have installed all dependencies, you need to start running the server a
 npm run serve
 ```
 After the server is initialized, you can access the demo app at https://localhost:8080
+
+
+#### Running unit tests
+
+Once you have installed all dependencies, you can run the unit tests.
+
+```
+npm run test:unit
+```
